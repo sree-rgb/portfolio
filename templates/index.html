@@ -1,17 +1,61 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% extends "layout.html" %}
+{% block title %}
+Home
+{% endblock %}
 
-		<!-- Bootstrap CSS -->
-		 <link rel="stylesheet" href="static/bootstrap.min.css" >
 
-		<title>Sreejith T Das</title>
-	</head>
-	<body>
-		<h1> Sreejith T Das</h1>
-		<p>I am pythonista </p>  
-	</body>
-</html>
+
+{% block body %}
+<h1 > Sreejith T Das</h1>
+		<div class="container">
+			
+			<div class="grid-title"> 
+				<h1> Front-End</h1>
+			</div>
+			<div class='index-grid'>
+				
+				<div class="index-grid-item1">
+				
+					<br>
+					 <img src="{{ url_for('static', filename='image.svg') }}">
+				</div>
+				<div class="index-grid-item2">
+					<ul class="skill-list">
+						<li>JavaScript</li>
+						<li>React JS</li>
+						<li>React Hooks</li>
+						<li>SCSS</li>
+						<li>CSS</li>
+						<li>JSON</li>
+						<li>HTML</li>
+						<li>Redux</li>
+					</ul>
+				</div>
+			</div>
+		</div> 
+			<div class="plus"><h1>+</h1></div>
+		<div class="container">
+			<div class="grid-title"> 
+				<h1> Back-End</h1>
+			</div>
+			<div class='index-grid'>
+				
+				<div class="index-grid-item2">
+				
+					<br>
+					 <img src="{{ url_for('static', filename='image.svg') }}">
+				</div>
+				<div class="index-grid-item1">
+					<ul class="skill-list">
+						<li>Flask</li>
+						<li>PostgresSQL</li>
+						<li>Django</li>
+						<li>Mongodb</li>
+						<li>SqlAlchemy</li>
+						<li>Socket.io</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+ 
+{% endblock %}
