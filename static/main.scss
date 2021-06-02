@@ -1,5 +1,4 @@
-body{
-}
+$primary-color:#383736;
 nav > ul {
 	display:flex;
 	li{
@@ -56,7 +55,7 @@ nav > ul {
 	grid-area:item2;
 	padding-top:3em;
 }
-.plus{
+.home_operator{
 	text-align:center;
 	width:100%;
 	margin:0;
@@ -67,4 +66,22 @@ nav > ul {
 	text-align:center;
 	font-size:5.5em;
 	}
+}
+.full_stack{
+	text-align:center;
+	font-size:3em;
+}
+.extras{
+	h1{
+	margin-left:1.5em;
+	}
+	.skill-list{
+	list-style:none;
+	text-align:center;
+	}
+	background-color:$primary-color;
+	width:90%;
+	margin:auto;
+	height:auto;
+	padding:2em 2em;
 }

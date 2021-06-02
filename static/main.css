@@ -8,7 +8,9 @@ nav > ul {
       color: black; }
   nav > ul li:hover {
     background-color: grey; }
-
+.orbitron{
+  font-family: 'Orbitron', sans-serif;
+}
 .container {
   margin: 5rem 1rem; }
 
@@ -41,15 +43,31 @@ nav > ul {
   grid-area: item2;
   padding-top: 3em; }
 
-.plus {
+.home_operator {
   text-align: center;
   width: 100%;
   margin: 0;
   padding: 0;
   margin-top: 10rem;
   margin-bottom: 10rem; }
-  .plus h1 {
+  .home_operator h1 {
     text-align: center;
     font-size: 5.5em; }
+
+.full_stack {
+  text-align: center;
+  font-size: 3em; }
+
+.extras {
+  background-color: #F5EFED;
+  width: 90%;
+  margin: auto;
+  height: auto;
+  padding: 2em 2em; }
+  .extras h1 {
+    margin-left: 1.5em; }
+  .extras .skill-list {
+    list-style: none;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
